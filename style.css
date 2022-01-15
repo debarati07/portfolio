@@ -1,0 +1,566 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+body
+{
+    width:100%;
+}
+/*intro*/
+#home
+{
+    margin-bottom: 140px;
+}
+.top_image
+{
+    top: 142px;
+    left: 377px;
+    width: 313px;
+    height: 313px;
+    opacity: 1;    
+    box-shadow: 5px 42px 19px -17px rgba(0,0,0,0.62);
+    -webkit-box-shadow: 5px 42px 19px -17px rgba(0,0,0,0.62);
+    -moz-box-shadow: 5px 42px 19px -17px rgba(0,0,0,0.62);
+}
+
+.intro
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction:row-reverse;
+}
+.section_title_intro
+{
+top: 170px;
+left: 728px;
+width: 365px;
+height: 175px;
+color: #303030;
+margin-left: 40px;
+}
+.section_title_intro b{
+width: 218px;
+height: 103px;
+text-align: left;
+font: normal normal 200 40px/72px 'Poppins', sans-serif;
+font-weight: 1000;
+letter-spacing: 0px;
+color: #303030;
+}
+.section_title_intro strong{
+ display: block;
+top:50px;
+left: 0px;
+width: 365px;
+height: 40px;
+text-align: left;
+font: normal normal 900 50px/45px 'Poppins', sans-serif;
+letter-spacing: 0px;
+color: #303030;
+
+}
+.section_subtitle_desc
+{
+    height: 47px;
+    font: normal normal normal 37px/45px Source Code Pro;
+    letter-spacing: 3.77px;
+    color: #1C4B43;
+    opacity: 1;
+    background-color: #16E0BD;
+    padding-left: 40px;
+    margin-top: 15px;
+}
+/*EDUCATION*/
+#education
+{
+    background-image:url('images/computer.png');
+   background-color: #2A2A2B ;/* Tint color */
+   background-blend-mode:soft-light;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.edu p{
+    height: 143px;
+    font: normal normal 50 18px/24px 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    line-height: 1.6;
+    font-weight: 900;
+}
+.edu h3
+{
+top: 784px;
+left: 267px;
+width: 240px;
+height: 50px;
+font: normal normal 900 24px/24px 'Poppins', sans-serif;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+text-align: left;
+}
+.edu{
+    padding:40px;
+}
+.services
+{
+    display: flex;
+    flex-wrap:nowrap;
+    height: 600px;
+    justify-content: space-around;
+    padding: 40px;
+}
+.section_title_education
+{
+    width: 100vw;
+    text-align: center;
+    font: normal normal 900 50px/50px 'Poppins', sans-serif;
+    color: #14CFAE;
+    margin-bottom: 30px;
+    padding-top: 50px;
+}
+/*ABout Me*/
+#about
+{
+    text-align: center;
+}
+.about_me
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width:50%;
+}
+.section_title_about
+{
+display:block;
+height: 85px;
+text-align: center;
+font: normal normal 900 60px/60px 'Poppins', sans-serif;
+letter-spacing: 0px;
+color: #303030;
+opacity: 1;
+}
+.section_subtitle_me
+{
+    text-align: center;
+    font: normal normal normal 25px/50px 'Poppins', sans-serif;
+    letter-spacing: 0px;
+    color: #303030;
+    background-color: #16E0BD;
+    padding: 10px;
+    display: inline-block;
+    font-weight: 700;
+}
+.about_me_img
+{
+    top: 1340px;
+    left: 886px;
+    width: 50%;
+    height: 100%;
+    opacity: 1;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.about_me_body
+{
+    text-align: left;
+    font: normal normal 900 20px/30px 'Poppins', sans-serif;
+    letter-spacing: 0px;
+    color: #303030;
+    opacity: 1;
+    line-height: 1.6;
+    padding:20px;
+    padding-left: 0px;
+}
+.container
+{
+    display: flex;
+    justify-content: flex-start;
+    padding:200px;
+}
+/*Projects*/
+
+.portfolio_img
+{
+    height:250px;
+    width:400px;
+}
+
+.section_title_project {
+        width: 100vw;
+        height: fit-content;
+        margin-bottom: 20px;
+        font: normal normal 500 50px/50px 'Poppins', sans-serif;
+        padding-top: 50px;
+        color: #FFFFFF;
+        text-align: center;
+                       }
+.section_subtitle_project
+{
+    width: 336px;
+    height: 35px;
+    font: normal normal 900 24px/24px 'Poppins', sans-serif;
+    color: #16E0BD;
+    margin: auto;
+    padding-bottom: 40px;
+}
+.portfolio 
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 75%;
+    padding-bottom: 120px;
+    justify-content: space-around;
+}
+.portfolio_img
+{
+    margin: 40px 40px 40px 40px;
+}
+#mywork
+{
+    background: #2E2E2E 0% 0% no-repeat padding-box;
+}
+/*footer*/
+footer
+{
+    background: #141414  padding-box;
+    padding:50px;
+}
+.footer-link
+{
+    font: normal normal 900 20px/24px 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #16E0BD;
+    height: 50px;
+    text-align:center;
+}
+.icon 
+{
+    font-size:20px;
+    color: #16E0BD;
+}
+.social_list li
+{
+    display: inline;
+    padding: 30px;
+}
+.social_list
+{
+    text-align: center;
+}
+/*navbar*/
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+.header{
+    margin-bottom: 100px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 3rem;
+}
+
+.nav-link{
+    font-size: 1.3rem;
+    font-weight: 900;
+    font-family: 'Poppins';
+    color: #303030;
+}
+
+.nav-link:hover{
+    color: #16E0BD;
+}
+
+.nav-logo {
+    font-size: 2.1rem;
+    color: #303030;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+@media only screen and (max-width: 768px) {
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-menu.active {
+        left: 0;
+        background: #303030;
+    }
+    .nav-link
+    {
+        color:#16E0BD;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+    
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .section_title_project
+    {
+        display: block;
+    }
+}
+@media only screen and (max-width: 426px)
+{
+    .header{
+        margin-bottom: 50px;
+    }
+    .section_subtitle_desc
+    {
+        margin-bottom: 40px;
+        width: 100vw;
+        padding-left: 0;
+        font-size: 1.5rem;
+    }
+    .section_title_project
+    {
+        display: block;
+    }
+    .section_title_intro,.section_title_intro strong,.section_subtitle_desc,.edu p,.intropicture,.edu h3
+    {
+        text-align: center;
+     
+    }
+    .section_title_intro
+    {
+        height:140px;
+    }
+    #education
+    {
+        background-blend-mode: darken;
+        margin-bottom: 70px;
+    }
+    .section_title_intro strong
+    {
+        width: 100vw;
+        font: normal normal 1000 50px/55px 'Poppins', sans-serif;
+        font-size: 2rem;
+    }
+    .services,.edu p
+    {
+    height: fit-content;
+    padding: 0;
+    flex-wrap: wrap;
+    }
+    .edu h3
+    {
+        margin:auto;
+    }
+    .about_me,.portfolio,.intro div,.section_title_intro
+    {
+        width:100vw;
+        margin:0;
+    }
+    .edu p 
+    {
+      padding: 25px;
+    }
+    .container{
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding:0;
+    }
+    .about_me_picture
+    {
+        width:100vw;
+        margin-top:20px;
+        margin-bottom: 30px;
+    }
+    .about_me_body
+    {
+        text-align: left;
+        padding: 0;
+        margin-top: 20px;
+        letter-spacing: 0;
+        font: normal normal 900 15px/25px 'Poppins', sans-serif;
+        padding: 0 20px;
+    }
+    .about_me_body p 
+    {
+       line-height: 2;
+    }
+    .section_subtitle_project
+    {
+        width: 100vw;
+        font-size: 20px;
+        text-align: center;
+    }
+    .portfolio
+    {
+        justify-content: center;
+    }
+    .section_subtitle_me
+    {
+        font: normal normal normal 15px/20px Source Code Pro;
+    }
+    .portfolio_img
+    {
+        height:150px;
+        width:250px;
+    }
+    footer
+    {
+        padding:50px 0;
+    }
+    .footer-link
+    {
+        font: normal normal 200 15px/15px Source Sans Pro;
+    }
+    .social_list li {
+        display: inline;
+        padding: 10px;
+        font-size: 50px;
+    }
+    .edu
+    {
+        padding: 0;
+    }
+}
+@media only screen and (min-width: 426px) and (max-width:769px)
+{
+.services
+ {
+        display: flex;
+        flex-wrap: wrap;
+        height: fit-content;
+        justify-content: space-around;
+        padding: 40px 30px 10px 30px;
+}
+#education
+{
+    background-blend-mode: soft-light;
+}
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding:0;
+}
+.edu h3 
+{
+    text-align: left;
+}
+.portfolio_img 
+{
+    height:150px;
+}
+.section_subtitle_me
+{
+    font: normal normal normal 20px/30px 'Poppins', sans-serif;
+    font-weight: 900;
+}
+.about_me_body
+    {
+        text-align: left;
+        padding: 0;
+        margin-top: 20px;
+        letter-spacing: 0;
+        font: normal normal 900 15px/25px 'Poppins', sans-serif;
+        padding: 0 20px;
+        margin-bottom:20px;
+    }
+    .about_me_body p 
+    {
+       line-height: 2;
+    } 
+.section_title_project
+{
+        display: block;
+}
+}
+@media only screen and (min-width: 769px) and (max-width:1025px)
+{
+    .container {
+        display: flex;
+        justify-content: flex-start;
+        padding: 60px 40px 100px 70px;
+    }
+    .section_subtitle_me
+    {
+    font: normal normal normal 20px/30px 'Poppins', sans-serif;
+    font-weight: 900;
+    }
+    .portfolio
+    {
+        width: 75%;
+    }
+    #about
+    {
+        margin:150px 0;
+    }
+    .section_title_project
+    {
+        display: block;
+    }
+    #education
+    {
+        background-blend-mode: soft-light;
+        height:max-content;
+    }
+}
