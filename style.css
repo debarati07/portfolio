@@ -564,3 +564,23 @@ a {
         height:max-content;
     }
 }
+.certificates {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.certi {
+	height: 350px;
+	width: 350px;
+	margin: 30px;
+}
+.certi-heading {
+	color: #16e0bd;
+	text-align: center;
+}
+.certi:hover {
+	box-shadow: 10px 10px 5px 0px #16e0bd;
+	-webkit-box-shadow: 10px 10px 5px 0px #16e0bd;
+	-moz-box-shadow: 10px 10px 5px 0px #16e0bd;
+	transform: scale(1.2);
+}
