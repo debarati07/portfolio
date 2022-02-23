@@ -110,7 +110,7 @@ text-align: left;
 {
     display: flex;
     flex-wrap:nowrap;
-    height: 600px;
+    height: 400px;
     justify-content: space-around;
     padding: 40px;
 }
