@@ -568,6 +568,7 @@ a {
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
+	margin-top:200px;
 }
 .certi {
 	height: 350px;
